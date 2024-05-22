@@ -22,31 +22,31 @@
     "tslib": "2.6.1"
   },
   "devDependencies": {
+    "@apollo/datasource-rest": "6.2.2",
+    "@apollo/server": "^4.10.4",
+    "@as-integrations/koa": "1.1.1",
     "@tsed/barrels": "workspace:*",
     "@tsed/common": "workspace:*",
     "@tsed/core": "workspace:*",
     "@tsed/di": "workspace:*",
     "@tsed/logger": ">=6.7.5",
     "@tsed/typescript": "workspace:*",
-    "@types/graphql": "14.5.0",
-    "apollo-datasource": "^3.3.2",
-    "apollo-datasource-rest": "^3.7.0",
-    "apollo-server-core": "^3.13.0",
-    "apollo-server-express": "^3.13.0",
-    "apollo-server-koa": "^3.13.0",
-    "apollo-server-testing": "^2.26.2",
+    "apollo-datasource-http": "0.21.0",
+    "apollo-server-testing": "2.25.3",
     "eslint": "^8.57.0",
     "graphql": "15.8.0",
-    "jest": "^29.7.0"
+    "graphql-scalar": "0.1.0",
+    "jest": "^29.7.0",
+    "typescript": "5.4.5"
   },
   "peerDependencies": {
+    "@apollo/datasource-http": "",
+    "@apollo/datasource-rest": ">=6.2.2",
+    "@apollo/server": ">=4.10.4",
     "@tsed/common": "7.72.0",
     "@tsed/core": "7.72.0",
     "@tsed/di": "7.72.0",
     "@tsed/logger": ">=6.7.5",
-    "apollo-datasource": ">=3.0.0",
-    "apollo-datasource-rest": ">=3.0.0",
-    "apollo-server-core": ">=3.0.0",
     "graphql": ">15.0.0"
   }
 }
